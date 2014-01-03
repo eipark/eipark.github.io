@@ -17,6 +17,8 @@ body {
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
+  border-top: 4px solid #a00;
+  color: #333;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -56,11 +58,11 @@ a:visited { color: #a0a; }
 /*****************************************************************************/
 
 .site {
-  font-size: 115%;
+  font-size: 125%;
   text-align: justify;
   width: 42em;
   margin: 3em auto 2em;
-  line-height: 1.5em;
+  line-height: 1.7em;
   padding: 15px;
 }
 
@@ -93,13 +95,14 @@ a:visited { color: #a0a; }
 
 .meta {
   color: #aaa;
+  margin-top: 0;
 }
 
 .footer {
   font-size: 80%;
   color: #666;
   border-top: 4px solid #eee;
-  margin-top: 2em;
+  margin-top: 5em;
   overflow: hidden;
 }
 
