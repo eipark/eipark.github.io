@@ -11,11 +11,9 @@ Like many other software engineers, I've wanted to write a blog for a long time.
 
 Both GitHub and Jekyll have done an incredible job of identifying the pain points that stop most people in their tracks. To get set up, I:
 
-1. Create a new GitHub repo for my blog https://github.com/eipark/eipark.github.io
-2. Install Jekyll (`gem install jekyll` and `jekyll new my_blog`)
-3. Create a file called `CNAME` in my repo with `erniepark.com`
-4. Update DNS records on my domain registrar to point to GitHub
+1. Created a new GitHub [repo](https://github.com/eipark/eipark.github.io) for my blog
+2. Installed Jekyll (`gem install jekyll` and `jekyll new my_blog`)
+3. Created a file called `CNAME` in my repo with `erniepark.com`
+4. Updated DNS records on my domain registrar to point to GitHub
 
 That's it! Writing posts is as simple as creating a new markdown file in your `_posts` directory.
-
-I hope to use this blog to post primarily about software development, Christian living, personal finance, and sports (hockey in particular). However, I find writing thoughts down to be therapeutic so I may rant about random other things as well. I grappled with the idea of focusing on one area for the site, but due to the nature of how content is discovered these days, I figured it wouldn't make much of a difference to throw everything in the pile.
