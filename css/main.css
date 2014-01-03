@@ -17,7 +17,6 @@ body {
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
-  border-top: 4px solid #a00;
   color: #333;
 }
 
@@ -30,6 +29,15 @@ p { margin: 1em 0; }
 a         { color: #00a; }
 a:hover   { color: #000; }
 a:visited { color: #a0a; }
+
+div#top-border{
+  position: fixed;
+  background: #a00;
+  width: 100%;
+  height: 2px;
+  top: 0;
+}
+
 
 /*****************************************************************************/
 /*
