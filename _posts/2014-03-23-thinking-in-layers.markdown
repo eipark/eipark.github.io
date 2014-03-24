@@ -56,6 +56,8 @@ The application from this idea of layers is that anything that can reduce the nu
 
 Though I am still a relatively young programmer, I've found that being able to think across layers is one of the skills that I've improved on the most in the past few years. It's also exceedingly clear though that I have much to grow into as well. Being able to focus on a single layer and context, while still maintaining good perspective on all the others is crucial. Every programmer's ability to handle these ideas is different, but the key is being introspective and refining your personal process.
 
+_Note: Someone pointed out that they think of layers as abstractions instead. I agree to the point that abstractions are the coding subset of what I'm calling layers. Since software development is greater than just the code you're writing, things tend to get trickier than just dealing the with proper level of abstraction in your code (which is a difficult task in and of itself)._
+
 
 [jekyll-gh]: https://github.com/mojombo/jekyll
 [jekyll]:    http://jekyllrb.com
