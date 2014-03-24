@@ -51,6 +51,7 @@ The application from this idea of layers is that anything that can reduce the nu
 * Good communication tools like HipChat, Github, Trello
 * Co-workers whose strengths are your weaknesses (I am capable, but very slow at making good markup/CSS, so [this guy](http://darowski.com/) has been a lifesaver)
 * A [good manager](http://graysky.org/) that helps you be at peace with work, so you don't have to manage the layer of interviewing somewhere else!
+* A good understanding of your codebase and architecture
 
 
 Though I am still a relatively young programmer, I've found that being able to think across layers is one of the skills that I've improved on the most in the past few years. It's also exceedingly clear though that I have much to grow into as well. Being able to focus on a single layer and context, while still maintaining good perspective on all the others is crucial. Every programmer's ability to handle these ideas is different, but the key is being introspective and refining your personal process.
