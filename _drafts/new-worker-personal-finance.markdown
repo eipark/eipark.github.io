@@ -5,6 +5,9 @@ categories:
   - personal-finance
 ---
 
+# Personal Finance Basics for New Graduates
+
+
 Like many other recent graduates into the workforce, I didn't know much about personal finance, taxes, 401k's, deductions, exemptions, and all these other big words adults seemed to use all the time. A good understanding of personal finance is crucial. )While most of this information is readily available in books, the internet, or your Uncle Bob, it is generally acquired piecemeal and over months and years (or sometimes never at all). My hope with this post is to highlight many of the basics of personal finance and earning a paycheck that I learned over my first few years out of college in a digestable way.
 
 This post will progressively build upon the concepts and terms learned to give you a somewhat full picture of what your finances may look like. 
@@ -94,6 +97,7 @@ Donating to qualified non-profits is not the only way to get tax-deductions. The
 * mortgage interest
 * certain medical expenses
 * pre-tax investments (like 401k, which we'll learn about later)
+* health/dental insurance costs taken out of your paycheck pretax
 * blah
 
 More information on tax deductions is available here: _____. 
