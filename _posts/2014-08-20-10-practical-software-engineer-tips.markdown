@@ -4,8 +4,6 @@ title:  "10 Practical Tips for Software Engineers"
 categories: software
 ---
 
-# 10 Practical Tips for Software Engineers
-
 These are a few tips and strategies I've picked up over my (short) career. See what works for you!
 
 ## 1. Be a rubber ducky, find a rubber ducky
