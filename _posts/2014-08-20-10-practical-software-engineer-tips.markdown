@@ -4,10 +4,11 @@ title:  "10 Practical Tips for Software Engineers"
 categories: software
 ---
 
-These are a few tips and strategies I've picked up over my (short) career. See what works for you!
+Here are a few simple tips and strategies I've picked up over my (short) career. See what works for you!
 
 ## 1. Be a rubber ducky, find a rubber ducky
 Have you ever talked to someone about a problem then realized the solution as you were describing it? This happens all the time. Talking out loud often gives your mind clarity and organization around a problem. In scenarios like this, the person you are talking to is considered a [rubber ducky](http://en.wikipedia.org/wiki/Rubber_duck_debugging). Everyone on your team should be open to being a rubber ducky and talking to one. Sometimes, if you're lucky, the rubber duckies will even offer good suggestions.
+<img src="http://farm4.staticflickr.com/3283/3031179563_cbe09125d8.jpg" style="margin-top:10px;display:block;margin:auto;width:300px;"/>
 
 ## 2. Get feedback fast
 Try to get feedback on code as soon as it makes sense. If you're working on a Pull Request flow like we do at HubSpot, make some trivial change and open the PR as soon as you can so you have a place to discuss design and code. Talk to your rubber duckies and make them quack! It's cheaper to iterate on prototypes than a 'finished' product.
@@ -21,23 +22,24 @@ When working on a new problem or feature, it's very easy to dive right into the 
 
 For example, say I needed a user click on a web page to trigger some complicated calculation, then save some results to a server. You might want to dive right into figuring out how to do the meaty calculation. For me, a better approach is to set up the event handler for the user action, mock the calculation with some fixed values, and then fire the API request to the server. This way, I can test my system end to end before I've figured out every detail. I now have a feedback loop which helps me iterate and code faster. The design might not be perfect initially, but by seeing how things fit together, you get a clearer picture of the full system you're trying to design.
 
-At HubSpot, we take this concept even further by pushing features to production before they're even finished so that we can test them internally. We can do this because of our gating infrastructure (more on this in another blog post).
+At HubSpot, we take this concept even further by pushing features to production before they're even finished so that we can test them internally. We can do this because of our gating infrastructure (more on this another time).
 
 ## 4. Know when to step away from the keyboard
 Sometimes, putting in debuggers, console.logging everywhere, and just bashing at the keyboard is a good way to test code. Other times, when you're having a tough time managing a complex design or problem, you need to stop looking at your screen. It's silly but sometimes I solve problems or have great insights in the bathroom. My wife, who is also a software engineer, does her best thinking when she sleeps (literally as she's falling asleep, or sometimes even in dreams...). Take a nap, go for a walk, go to the bathroom, whatever, but find ways to think away from your computer.
 
 ## 5. Automate
-  The most efficient developers automate many of their tedious processes. A common misconception about automation is that it's about saving time. Certainly when you automate a process you might end up saving time. But even more valuable than saving time, automation allows you to chase a train of thought uninterrupted and lowers the barrier for actually completing tasks.
+  It's no secret that efficient developers automate many of their tedious processes. A common misconception about automation though is that it's only about saving time. While saving time is certainly valuable, the larger point is that automation allows you to chase a train of thought uninterrupted and lowers the barrier for actually completing tasks.
 
 For instance, if there was a complex SQL query I needed to run very often to get some metrics, I am much less inclined to run the query if it is long and I have to type it every time. If instead, I've saved it on my clipboard using a program like [Alfred](http://www.alfredapp.com/), or saved it somewhere for easy access, I'm much more likely to run the query often.
 
 ## 6. You can always DRY off later
-It's tempting to write perfect code and figure out every abstraction when you're designing new code. I've found that abstractions are dangerous time sinks when starting on something new, even when they seem obvious and easy to design. Rather than abstract right away, I'll simply copy paste methods as I'm prototyping. It helps me move quicker on new projects at the beginning and often times reveals better abstractions and concerns than I could have discovered on a piece of paper or whiteboard. Of course the caveat is that you have to actually clean up the code before it rots.
+It's tempting to write perfect code and figure out every abstraction when you're designing new code. I've found that abstractions are dangerous time sinks when starting on something new, even when they seem obvious and easy to design. Rather than abstract right away, I'll simply copy paste large chunks of code as I'm prototyping. It helps me move quicker on new projects at the beginning and often times reveals better abstractions and concerns than I could have discovered on a piece of paper or whiteboard. Of course the caveat is that you have to actually clean up the code before it rots.
 
 ## 7. Stay mobile
-Mobile as in your body, not your iPhone. Coding is not the most strenuous of activities so it's important to force yourself to stay active. Make sure to get a good stretch in a few times a day and walk around from time to time. At HubSpot, we have a club that does pushups before lunch three days a week. I like to do a few pushups every hour or so to keep my blood flowing and muscles stretched.
+Mobile as in your body, not your iPhone. Coding doesn't burn too many calories so it's important to force yourself to stay active. Make sure to get a good stretch in a few times a day and walk around from time to time. At HubSpot, we have a club that does pushups before lunch three days a week. I like to do a few pushups every hour or so to keep my blood flowing and muscles stretched.
 
-Sitting for long periods of time has caused me intense shoulder and back pain in the past, but having a standing desk has eliminated those pains completely. I'd strongly suggest trying it out for short periods of time if you experience pain related to sitting.
+Sitting for long periods of time has caused me intense shoulder and back pain in the past, but having a standing desk has eliminated those pains completely. I'd strongly suggest trying it out for short periods of time if you experience pain related to sitting. At HubSpot we have motorized desks so I can switch between standing and sitting. I didn't feel like shelling out $1000 for a fancy desk at home, so I was able to [find one](http://www.jrnielsen.com/ikea-fredrik-desk-as-standing-workstation/) on Craigslist for $40.
+<a target="_blank" href="http://cdn2.hubspot.net/hub/319577/file-1368765403-jpg/desk.jpg"><img src="http://cdn2.hubspot.net/hub/319577/file-1368765403-jpg/desk.jpg" style="width:400px;margin-top:10px;display:block;margin:auto;" /></a>
 
 ## 8. Read ahead
 Reading documentation, technical articles, and code can often be confusing and maddening. Before flailing your arms and scratching your head, read ahead a bit and get more context. Programming concepts are difficult to express in a linear form. Reading ahead will often make it more clear what a previous sentence or code snippet is talking about.
