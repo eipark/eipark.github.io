@@ -4,7 +4,7 @@ title:  "10 Practical Tips for Software Engineers"
 categories: software
 ---
 
-Here are a few simple tips and strategies I've picked up over my (short) career. See what works for you! Share your own with me [on Twitter](http://twitter.com/eipark).
+Here are a few simple tips and strategies I've picked up over my (short) career. See what works for you! Share your own with me <a href="http://twitter.com/eipark" target="_blank">on Twitter</a>.
 
 ## 1. Be a rubber ducky, find a rubber ducky
 Have you ever talked to someone about a problem then realized the solution as you were describing it? This happens all the time. Talking out loud often gives your mind clarity and organization around a problem. In scenarios like this, the person you are talking to is considered a [rubber ducky](http://en.wikipedia.org/wiki/Rubber_duck_debugging). Everyone on your team should be open to being a rubber ducky and talking to one. Sometimes, if you're lucky, the rubber duckies will even offer good suggestions.
