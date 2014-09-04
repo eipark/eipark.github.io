@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <style type="text/css">
+      html {
+        height: 100%;
+        font-family: 'Helvetica';
+
+      }
+      body { height: 100%; margin: 0; padding: 0 }
+      #map {
+        width: 100%;
+        height: 100%;
+        margin-left: 265px;
+        position: relative;
+      }
+      #sidebar {
+        width: 250px;
+        border-right: 1px solid #AAA;
+        padding: 5px;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        position: fixed;
+      }
+
+      .bio {
+        margin-top: 5px;
+        border-bottom: 1px solid #AAA;
+        padding-bottom: 5px;
+        margin-bottom: 20px;
+      }
+
+      .name {
+        font-size: 120%;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+
+      #address {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        background: #222;
+        color: #FFF;
+        padding: 25px;
+        text-align: center;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div id="sidebar">
+      <div id='address'>
+        <div class='name'>Ernie & Tina's Home</div>
+        15 Marion Street Unit 2<br />
+        Cambridge, MA 02139
+      </div>
+      <div class='bio'>
+        <div class='name'>Ernie</div>
+        <strong>C</strong>: 617.842.4313<br/>
+        <strong>GoogleVoice</strong>: 617.744.9624<br/>
+        <strong>E</strong>: <a href="mailto:ernestipark@gmail.com" target="_blank">ernestipark@gmail.com</a>
+      </div>
+      <div class='bio'>
+        <div class='name'>Tina</div>
+        <strong>C</strong>: 607.232.6283<br/>
+        <strong>E</strong>: <a href="mailto:tinahsu314@gmail.com" target="_blank">tinahsu314@gmail.com</a>
+      </div>
+      <div>
+        <div class='name'>Parking</div>
+        <ul>
+          <li>Parking lot across street (Macarelli Way) Mon-Sat 8a-6p, 4hr max, $.25/30 min. <strong>Free</strong> otherwise. We have quarters if you need.</li>
+          <li>Side streets have permit parking (I have one visitor's pass)</li>
+          <li>Cambridge St has metered parking</li>
+        </ul>
+      </div>
+      <div>
+        <div class='name'>Public Trans</div>
+        <ul>
+          <li><a href="http://www.mbta.com/schedules_and_maps/bus/routes/?route=69" target="_blank">69 Bus</a> runs between <font color="red">Harvard</font> & <font color="green">Lechmere (E Line)</font></a>. Stops right on Cambridge St</li>
+          <li>15 Minute walk to/from <font color='red'>Central</font> or <font color='red'>Kendall</font></li>
+        </ul>
+      </div>
+    </div>
+    <iframe id="map" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=15+Marion+St,+Cambridge,+MA&amp;aq=0&amp;oq=15+marion+street&amp;sll=42.364756,-71.103259&amp;sspn=0.033104,0.066047&amp;g=02139&amp;ie=UTF8&amp;hq=&amp;hnear=15+Marion+St,+Cambridge,+Massachusetts+02141&amp;ll=42.372688,-71.089006&amp;spn=0.002069,0.004128&amp;t=m&amp;z=18&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=15+Marion+St,+Cambridge,+MA&amp;aq=0&amp;oq=15+marion+street&amp;sll=42.364756,-71.103259&amp;sspn=0.033104,0.066047&amp;g=02139&amp;ie=UTF8&amp;hq=&amp;hnear=15+Marion+St,+Cambridge,+Massachusetts+02141&amp;ll=42.372688,-71.089006&amp;spn=0.002069,0.004128&amp;t=m&amp;z=14" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+  </body>
+</html>
