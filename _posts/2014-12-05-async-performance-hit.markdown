@@ -24,4 +24,4 @@ With our performance monitoring, we recently discovered that one aysnchronously 
 
 <a href="http://cdn2.hubspot.net/hub/319577/file-2180960427-jpg/load_time_3rd_party_lib.jpg"><img src='http://cdn2.hubspot.net/hub/319577/file-2180960427-jpg/load_time_3rd_party_lib.jpg' style='margin-top:10px;display:block;margin:auto;width:600px;'/></a> From the graph, you can see in cases where the third-party script finished downloading before our internal scripts, it delayed time to interactivity and the execution of our own scripts by nearly a full second. It was essentially a race condition based on how fast the third party script loaded.
 
-So before you add that latest and greatest Javascript library or add another request to your app, remember that asynchronous _)does not__ mean fast.
+So before you add that latest and greatest Javascript library or add another request to your app, remember that asynchronous __does not__ mean fast.
