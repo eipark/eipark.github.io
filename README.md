@@ -1,2 +1,2 @@
 my github page
-jekyll server --watch
+jekyll server --watch [--drafts]
