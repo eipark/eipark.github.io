@@ -4,9 +4,7 @@ title:  "Async != Fast"
 categories: software
 ---
 
-In a recent campaign to improve our HubSpot's performance, we learned a simple but important lesson:
-
-# Async != Fast
+In a recent campaign to improve our HubSpot's performance, we learned a simple but important lesson: __Async != Fast__
 
 Javascript heavy apps and libraries have become much more prevalent on the web, and HubSpot is no different. We use Backbone on the client which consumes a handful of any of our hundreds of API endpoints via AJAX. We also load third party libraries with script tags at the end of the body. Even though all these scripts and requests are happening asynchronously, it's very dangerous and downright wrong to think that your app won't suffer a performance hit because of them.
 
@@ -26,4 +24,4 @@ With our performance monitoring, we recently discovered that one aysnchronously 
 
 <a href="http://cdn2.hubspot.net/hub/319577/file-2180960427-jpg/load_time_3rd_party_lib.jpg"><img src='http://cdn2.hubspot.net/hub/319577/file-2180960427-jpg/load_time_3rd_party_lib.jpg' style='margin-top:10px;display:block;margin:auto;width:600px;'/></a> From the graph, you can see in cases where the third-party script finished downloading before our internal scripts, it delayed time to interactivity and the execution of our own scripts by nearly a full second. It was essentially a race condition based on how fast the third party script loaded.
 
-So before you add that latest and greatest Javascript library or add another request to your app, remember that asynchronous _does not mean_ fast.
+So before you add that latest and greatest Javascript library or add another request to your app, remember that asynchronous _)does not__ mean fast.
