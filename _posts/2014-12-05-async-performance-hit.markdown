@@ -12,7 +12,7 @@ Though asynchronous loading means your Javascript can do other things while it's
 
 ## 1. # of Concurrent Requests
 
-Browsers have a limited number of requests they can make at a single time. In Chrome for instance, that number is 10. If you have 11 requests happening at once, that 11th one has to wait for one fo the first 10 to return. There is also a limit per hostname, so if you're making many requests to your own API, you could be causing waterfall'ing of your requests. You can find [browser request limits here](http://www.browserscope.org/?category=network).
+Browsers have a limited number of requests they can make at a single time. In Chrome for instance, that number is 10. If you have 11 requests happening at once, that 11th one has to wait for one of the first 10 to return. There is also a limit per hostname, so if you're making many requests to your own API, you could be causing waterfall'ing of your requests. You can find [browser request limits here](http://www.browserscope.org/?category=network).
 
 ## 2. Parse/Eval time
 
@@ -26,4 +26,4 @@ With our synthetic performance monitoring, we recently discovered that one aysnc
 
 To fix this issue, we decided the library in question was not important enough to keep so we got rid of it. If we needed to keep it however, we could have tried to defer its loading or wait for some internal hook that says "it's ok for non-critical elements to load now".
 
-So before you add that latest and greatest Javascript library or add another request to your app, remember that asynchronous __does not__ mean fast.
+Before you add that latest and greatest Javascript library or add another request to your app, remember that asynchronous __does not__ mean fast. Take the time to understand the performance costs of adding more requests to your page.
