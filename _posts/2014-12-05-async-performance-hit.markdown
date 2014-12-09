@@ -6,7 +6,7 @@ categories: software
 
 In a recent campaign to improve our front-end web performance at HubSpot, we learned a simple but important lesson: __Async != Fast__.
 
-Javascript heavy apps and libraries have become much more prevalent on the web, and HubSpot is no different. We use Backbone on the client which consumes a handful of any of our hundreds of API endpoints via AJAX. We also load third party libraries with script tags at the end of the body. Even though all these scripts and requests are happening asynchronously, it's very dangerous and downright wrong to think that your app won't suffer a performance hit because of them. This means that you cannot just add extra API requests or script tags to the end of your body without fear of consequence; every request has a cost.
+Javascript heavy apps and libraries have become much more prevalent on the web, and HubSpot is no different. We use Backbone on the client which consumes a handful of any of our hundreds of API endpoints via AJAX. We also load third party libraries with script tags at the end of the body. Even though all these scripts and requests are happening asynchronously, it's very dangerous and downright wrong to think that your app won't suffer a performance hit because of them. This means that you cannot just add extra API requests or async script tags without fear of consequence; every request has a cost.
 
 Though asynchronous loading means your Javascript can do other things while it's fetching a resource, there are a couple other considerations to keep in mind:
 
@@ -22,7 +22,7 @@ In the case of a Javascript library, your browser still has to parse and evaluat
 
 With our synthetic performance monitoring, we recently discovered that one aysnchronously loaded Javascript library was slowing down our app significantly.
 
-<a href="http://cdn2.hubspot.net/hub/319577/file-2202498747-jpg/load_time_3rd_party.jpg"><img src='http://cdn2.hubspot.net/hub/319577/file-2202498747-jpg/load_time_3rd_party.jpg' style='margin-top:10px;display:block;margin:auto;width:600px;'/></a> The graph shows load time of our app over time. In cases where the third-party script (green line) finished downloading before our internal scripts, it delayed time to interactivity and the execution of our own scripts by nearly a full second. It was essentially a race condition based on how fast the third party script loaded which could add over a full second to load time.
+<a href="http://cdn2.hubspot.net/hub/319577/file-2202498747-jpg/load_time_3rd_party.jpg"><img src='http://cdn2.hubspot.net/hub/319577/file-2202498747-jpg/load_time_3rd_party.jpg' style='margin-top:10px;display:block;margin:auto;width:600px;'/></a> The graph shows load time of our app over time. In cases where the third party script finished downloading before our internal scripts, it delayed time to interactivity and the execution of our own scripts by nearly a full second. It was essentially a race condition based on how fast the third party script loaded.
 
 To fix this issue, we decided the library in question was not important enough to keep so we got rid of it. If we needed to keep it however, we could have tried to defer its loading or wait for some internal hook that says "it's ok for non-critical elements to load now".
 
