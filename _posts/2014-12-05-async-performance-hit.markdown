@@ -4,6 +4,8 @@ title:  "Async != Fast"
 categories: software
 ---
 
+__Note:__ This post was also shared on the [HubSpotDev Blog](http://dev.hubspot.com/blog/async-fast).
+
 In a recent campaign to improve our front-end web performance at HubSpot, we learned a simple but important lesson: __Async != Fast__.
 
 Javascript heavy apps and libraries have become much more prevalent on the web, and HubSpot is no different. We use Backbone on the client which consumes a handful of any of our hundreds of API endpoints via AJAX. We also load third party libraries with script tags at the end of the body. Even though all these scripts and requests are happening asynchronously, it's very dangerous and downright wrong to think that your app won't suffer a performance hit because of them. This means that you cannot just add extra API requests or async script tags without fear of consequence; every request has a cost.
