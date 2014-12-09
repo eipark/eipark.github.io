@@ -10,9 +10,9 @@ Javascript heavy apps and libraries have become much more prevalent on the web, 
 
 Though asynchronous loading means your Javascript can do other things while it's fetching a resource, there are a couple other considerations to keep in mind:
 
-## 1. [# of Concurrent Requests](http://www.browserscope.org/?category=network)
+## 1. # of Concurrent Requests
 
-Browsers have a limited number of requests they can make at a single time. In Chrome for instance, that number is 10. If you have 11 requests happening at once, that 11th one has to wait for one fo the first 10 to return. There is also a limit per hostname, so if you're making many requests to your own API, you could be causing waterfall'ing of your requests.
+Browsers have a limited number of requests they can make at a single time. In Chrome for instance, that number is 10. If you have 11 requests happening at once, that 11th one has to wait for one fo the first 10 to return. There is also a limit per hostname, so if you're making many requests to your own API, you could be causing waterfall'ing of your requests. You can find [browser request limits here](http://www.browserscope.org/?category=network).
 
 ## 2. Parse/Eval time
 
