@@ -22,7 +22,7 @@ In the case of a Javascript library, your browser still has to parse and evaluat
 
 With our synthetic performance monitoring, we recently discovered that one aysnchronously loaded Javascript library was slowing down our app significantly.
 
-<a href="http://cdn2.hubspot.net/hub/319577/file-2180960427-jpg/load_time_3rd_party_lib.jpg"><img src='http://cdn2.hubspot.net/hub/319577/file-2180960427-jpg/load_time_3rd_party_lib.jpg' style='margin-top:10px;display:block;margin:auto;width:600px;'/></a> From the graph, you can see in cases where the third-party script finished downloading before our internal scripts, it delayed time to interactivity and the execution of our own scripts by nearly a full second. It was essentially a race condition based on how fast the third party script loaded which could add over a full second to load time.
+<a href="http://cdn2.hubspot.net/hub/319577/file-2202498747-jpg/load_time_3rd_party.jpg"><img src='http://cdn2.hubspot.net/hub/319577/file-2202498747-jpg/load_time_3rd_party.jpg' style='margin-top:10px;display:block;margin:auto;width:600px;'/></a> The graph shows load time of our app over time. In cases where the third-party script (green line) finished downloading before our internal scripts, it delayed time to interactivity and the execution of our own scripts by nearly a full second. It was essentially a race condition based on how fast the third party script loaded which could add over a full second to load time.
 
 To fix this issue, we decided the library in question was not important enough to keep so we got rid of it. If we needed to keep it however, we could have tried to defer its loading or wait for some internal hook that says "it's ok for non-critical elements to load now".
 
