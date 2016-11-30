@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How US Tech Employees can Maximize Giving with Stocks and Donor Advised Funds"
+title:  "How Tech Workers can Maximize Giving with Stocks and Donor Advised Funds"
 categories: software finances giving
 ---
 
