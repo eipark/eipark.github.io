@@ -10,7 +10,12 @@ Today is __#givingtuesday__! It’s not just a great time to adjust your belts f
 
 If you own stock or are compensated in stock options or RSUs - as many tech and startup employees are - you have a great opportunity to stretch your giving and save on taxes.
 
-The crux of the opportunity comes from the fact that donating long-term appreciated stocks results in 1. a standard tax deduction on the value of the stocks, and 2. you are NOT taxed on the appreciation (aka profit or gains) of the stocks. This is a double whammy that leaves you with more money in your pocket or to give to charities. For a stock to be long-term appreciated, you need to have held it for at least a year and the value is greater now than when you received or bought it.
+The crux of the opportunity comes from the fact that donating long-term appreciated stocks results in:
+
+1. a standard tax deduction on the value of the stocks, and
+1. you are __not taxed on the appreciation__ (aka profit or gains) of the stocks.
+
+This is a huge double whammy that leaves you with more money to give to charities or stash away. For a stock to be long-term appreciated, you need to have held it for at least a year and the value must be greater now than when you received or bought it.
 
 Let’s look at an example:
 
