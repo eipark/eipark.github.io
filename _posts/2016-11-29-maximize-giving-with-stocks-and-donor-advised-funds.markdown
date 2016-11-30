@@ -4,7 +4,7 @@ title:  "How Tech Workers can Maximize Giving with Stocks and Donor Advised Fund
 categories: software finances giving
 ---
 
-![](/images/stock.jpg)
+![](/images/stock.png)
 
 Today is __#givingtuesday__! It’s not just a great time to adjust your belts from the Thanksgiving fallout, but also your wallet to make room for the causes you care the most about.
 
