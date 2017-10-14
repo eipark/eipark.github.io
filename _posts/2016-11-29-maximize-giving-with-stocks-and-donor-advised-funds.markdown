@@ -31,3 +31,5 @@ To set up a DAF you’ll need to go through a brokerage like <a href="https://fi
 I hope that this post gave you some good ideas on how to stretch your dollar to support the causes you care about. As with any financial advice, make sure to contextualize it to your own specific financial and tax situation and do further research. There are plenty of resources on DAFs and tax-efficient giving. Most of the advice in this post only makes sense if you itemize your deductions and it’s prudent for you to hold on to stock long term rather than selling immediately when they’re granted. If you have any other suggestions, thoughts, or questions, reach out to me via email or twitter.
 
 Happy #givingtuesday!
+
+EDIT: Another potential caveat is that while your funds are in the DAF, any gains won't become tax-deductible versus if they were in a standard taxable account that you donated from. This may or may not be an issue depending on market movement and also the 'age' of money in that account
