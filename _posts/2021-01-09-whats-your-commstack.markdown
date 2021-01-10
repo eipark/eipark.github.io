@@ -6,7 +6,7 @@ categories: software tech futureofwork
 
 When developers are looking for work or evaluating companies, it’s common to ask, “What’s your tech stack?”. Naturally, people like to stay in ecosystems of technologies or services they have experience with and enjoy. For devs, choices of programming language, PaaS provider, framework, libraries, and OS can make a significant impact on their day-to-day productivity and happiness. This is of course, is not unique to developers and engineering stacks. Marketers may stick with their preferred choice of marketing automation tools, sales reps their CRM of choice, etc. 
 
-However, as COVID has pushed many companies remote, I predict that an equally important question will become commonplace for all job seekers: “What’s your communication stack?”. Or perhaps more catchily if it becomes a ~thing~: “What’s your commstack?”.
+However, as COVID has pushed many companies remote, I predict that an equally important question will become commonplace for all job seekers: “What’s your communication stack?”. Or perhaps more catchily if it becomes a *thing*: “What’s your commstack?”.
 
 Regardless of role, the ability to communicate, gather, and disseminate information well is obviously one of the most important factors for a happy employee and healthy organization. Remote work has made this painfully more evident for some companies as there is no more in-person communication to rely on. Companies will be forced to adapt as async, video/audio, and flexibility become the norm.
 
