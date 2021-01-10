@@ -19,6 +19,8 @@ There are a few categories of communication tools I can think of off the top of 
 * **Writing**: Google Docs, Dropbox Paper, Notion, Roam
 * **Virtual Presence**: Teamflow, Branch, Gather
 
+![](/images/commstack.png)
+
 Communication tools are of course nothing new, but it will be very interesting to see how these categories evolve with the accelerant of the pandemic. I predict new categories will emerge altogether, and eventually we will see consolidation of many of these tools as they inevitably overlap and need to communicate (hah!) with each other. The interesting thing about some of these tools is that they don't require full team adoption to recognize value. Loom is a great example of this where only one champion needs to be a creator and the viewers don't need an account to consume the content. This could lead to strong bottom-up adoption and viral loops.
 
 For employers, I believe we will see increasing brand differentiation, publicity, and marketing based on communication stack and philosophy as a competitive advantage. The tools a company uses in their commstack will become a signal just as prominent as their choice of programming language.
