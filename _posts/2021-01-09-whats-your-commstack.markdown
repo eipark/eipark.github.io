@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "What's your commstack?"
-categories: software tech futureofwork
 ---
 
 When developers are looking for work or evaluating companies, it’s common to ask, “What’s your tech stack?”. Naturally, people like to stay in ecosystems of technologies or services they have experience with and enjoy. For devs, choices of programming language, PaaS provider, framework, libraries, and OS can make a significant impact on their day-to-day productivity and happiness. This is of course, is not unique to developers and engineering stacks. Marketers may stick with their preferred choice of marketing automation tools, sales reps their CRM of choice, etc. 
