@@ -5,7 +5,7 @@ title:  "What's your commstack?"
 
 When developers are looking for work or evaluating companies, it’s common to ask, “What’s your tech stack?”. Naturally, people like to stay in ecosystems of technologies or services they have experience with and enjoy. For devs, choices of programming language, PaaS provider, framework, libraries, and OS can make a significant impact on their day-to-day productivity and happiness. This is of course, is not unique to developers and engineering stacks. Marketers may stick with their preferred choice of marketing automation tools, sales reps their CRM of choice, etc. 
 
-However, as COVID has pushed many companies remote, I predict that an equally important question will become commonplace for all job seekers: “What’s your communication stack?”. Or perhaps more catchily if it becomes a *thing*: “What’s your commstack?”. Job seekers will increasingly see quality of communication tools will be seen as a signal for strong companies.
+However, as COVID has pushed many companies remote, I predict that an equally important question will become commonplace for all job seekers: “What’s your communication stack?”. Or perhaps more catchily if it becomes a *thing*: “What’s your commstack?”. Job seekers will increasingly see quality of communication tools as a signal for strong companies.
 
 There are a few categories of communication tools I can think of with some examples for each:
 
